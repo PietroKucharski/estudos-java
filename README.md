@@ -71,14 +71,6 @@ javac estrutura_sequencial/Aula01.java
 java estrutura_sequencial.Aula01
 ```
 
-## Anotações rápidas
-
-- `System.out.println()` imprime o conteúdo e quebra a linha ao final.
-- `System.out.printf()` permite formatar a saída: `%d` (inteiro), `%f` (ponto flutuante), `%s` (texto), `%n` (quebra de linha).
-- `%.2f` limita a exibição a duas casas decimais.
-- `Locale.setDefault(Locale.US)` troca a vírgula pelo ponto como separador decimal.
-- A concatenação com `+` funciona no `println`, mas o `printf` costuma deixar o código mais legível quando há formatação envolvida.
-
 ## Objetivos
 
 - Construir uma base sólida, teórica e prática, em orientação a objetos
