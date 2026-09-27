@@ -172,11 +172,11 @@ Não comece pelo menu. Cada etapa deve funcionar antes de passar para a próxima
 
 ### Critérios de conclusão
 
-* [ ] Os dados de exemplo reproduzem exatamente o extrato do mês 3 e o relatório anual.
-* [ ] Nenhuma classe além de `Programa` tem `System.out`.
-* [ ] `Lancamento` não tem nenhum setter e todos os atributos de instância são `final`.
-* [ ] Um trecho como `carteira.getLancamentos().clear()` no `main` **não** apaga os lançamentos da carteira.
-* [ ] Alterar a matriz devolvida por `despesasPorCategoriaEMes` não afeta relatórios seguintes.
-* [ ] Registros inválidos são recusados com mensagem e não consomem id.
-* [ ] Descrições com espaços (`Freela site`) são lidas corretamente pelo menu.
-* [ ] O menu nunca quebra com opção inexistente (opções numéricas).
+* [ x ] Os dados de exemplo reproduzem exatamente o extrato do mês 3 e o relatório anual.
+* [ x ] Nenhuma classe além de `Programa` tem `System.out`.
+* [ x ] `Lancamento` não tem nenhum setter e todos os atributos de instância são `final`.
+* [ x ] Um trecho como `carteira.getLancamentos().clear()` no `main` **não** apaga os lançamentos da carteira.
+* [ x ] Alterar a matriz devolvida por `despesasPorCategoriaEMes` não afeta relatórios seguintes.
+* [ x ] Registros inválidos são recusados com mensagem e não consomem id.
+* [ x ] Descrições com espaços (`Freela site`) são lidas corretamente pelo menu.
+* [ x ] O menu nunca quebra com opção inexistente (opções numéricas).
